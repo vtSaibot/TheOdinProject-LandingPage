@@ -1,2 +1,2 @@
 # TheOdinProject-LandingPage
-Landing Page Exercise
+Landing Page Project from the odin project
