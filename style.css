@@ -1,53 +1,79 @@
-*{ 
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+* {
+    font-family: system-ui,
+                 -apple-system, 
+                 BlinkMacSystemFont, 
+                 'Segoe UI', 
+                 Roboto, 
+                 Oxygen, 
+                 Ubuntu, 
+                 Cantarell, 
+                 'Open Sans', 
+                 'Helvetica Neue', 
+                 sans-serif;
 }
 
-header {
-    background-color: #1F2937;
+body {
+    background-color: #1f2937;
 }
 
-nav.navBar {
+div.header, section.box {
+    background-color: #1f2937;
+}
+
+.header {
     display: flex;
-    padding-left: 50px;
-    padding-right: 50px;
+    justify-content: space-between;
+    margin: 40px;
 }
 
 .header-logo {
-    color: #f9faf8;
     font-size: 24px;
-    font-weight: 900;
     text-decoration: none;
-    margin-right: auto;
-    margin-left: 50px;
+    color: #f9faf8;
 }
-.links {
+
+#links {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 }
 
-.links a {
-    color: #E5E7EB;
+#links a {
+    color: #e5e7eb;
     text-decoration: none;
-    font-size: 18px;
-    margin-right: 4px;
-    margin-left: 4px;
+    margin-right: 35px;
+    justify-content: flex-end;
 }
 
-.headings {
+section.box {
     display: flex;
-    flex: auto;
+    justify-content: space-between;
 }
 
-.leftHeadings, .signUp {
-    color: #f9faf8;
+.signin {
+    color: #e5e7eb;
+    background-color: #3882F6;
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+    margin-left: 40px;
+}
+
+h1.sectionHead {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+    margin-left: 40px;
 }
 
 .subText {
     font-size: 18px;
-    color: #E5E7EB;    
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+
 }
 
-.signUp {
-    background-color: #3882F6;
-    border-radius: 6px;
+img {
+    margin-right: 40px;
 }
