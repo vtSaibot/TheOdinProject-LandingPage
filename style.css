@@ -111,4 +111,5 @@ section.middleSection {
 .text {
     width: 130px;
     display: flex;
+    text-align: center;
 }
