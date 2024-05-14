@@ -13,6 +13,8 @@
 }
 
 body {
+    margin-left: 80px;
+    margin-right: 80px;
     background-color: #1f2937;
 }
 
@@ -71,9 +73,42 @@ h1.sectionHead {
     color: #e5e7eb;
     display: flex;
     justify-content: center;
-
+    width: 400px;
+    margin-left: 40px;
 }
 
 img {
     margin-right: 40px;
+}
+
+section.middleSection {
+    margin-top: 60px;
+    background-color: white;
+    border-radius: 6px;
+    padding-bottom: 85px;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.fourSquares {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.squares {
+    height: 150px;
+    width: 130px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+}
+.text {
+    width: 130px;
+    display: flex;
 }
