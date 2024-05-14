@@ -84,7 +84,6 @@ img {
 section.middleSection {
     margin-top: 60px;
     background-color: white;
-    border-radius: 6px;
     padding-bottom: 85px;
 }
 
@@ -112,4 +111,31 @@ section.middleSection {
     width: 130px;
     display: flex;
     text-align: center;
+}
+
+section.quotation {
+    background-color: #e5e7eb;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote {
+    width: 800px;
+    color: #1f2937;
+    font-size: 36px;
+    text-align: center;
+}
+
+.quoteBox {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
 }
