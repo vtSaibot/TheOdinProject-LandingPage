@@ -139,3 +139,60 @@ section.quotation {
     display: flex;
     justify-content: flex-end;
 }
+
+section.action {
+    background-color: white;
+    height: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.signUpBox {
+    background-color: #3882F6;
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+    border-radius: 6px;
+}
+
+.actionText {
+    color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.smallerText {
+    font-size: 14px;
+}
+
+.signUpButton {
+    color: #e5e7eb;
+    background-color: #3882F6;
+    border: 2px solid #e5e7eb;
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+}
+
+.buttonBox,
+.textBox {
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footerText {
+    color: #e5e7eb;
+    font-weight: 400;
+    word-spacing: 5px  ;
+}
